@@ -1,19 +1,9 @@
-import imgUser from './assets/avatar.png';
 import Card from './Card.jsx';
+import MenuLateral from './MenuLateral.jsx';
 const PanelControl = () => {
     return (
         <section className="panel-control">
-            <aside className="panel-control-aside">
-                <div>
-                    <img src={imgUser} alt="imagen_user" />
-                </div>
-                <nav>
-                    <a href="#">Enlace</a>
-                    <a href="#">Enlace</a>
-                    <a href="#">Enlace</a>
-                    <a href="#">Enlace</a>
-                </nav>
-            </aside>
+            <MenuLateral />
             <div className="panel-control-contenido">
                 <Card />
                 <Card />

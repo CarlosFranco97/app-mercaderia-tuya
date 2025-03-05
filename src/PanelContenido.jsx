@@ -1,11 +1,10 @@
 import CardContenido from "./CardContent";
+import MenuLateral from "./MenuLateral";
 
 const PanelContenido = () => {
     return (
         <div className="panel-contenido">
-            <aside className="panel-contenido-aside">
-            
-            </aside>
+            <MenuLateral />
             <section className="panel-contenedor-card">
                 <CardContenido />
                 <CardContenido />
